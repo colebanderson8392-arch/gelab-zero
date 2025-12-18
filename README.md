@@ -167,6 +167,42 @@ The benchmark results demonstrate that GELab-Zero-4B-preview exhibits exceptiona
 
 <!-- EN -->
 
+### 🖥️ Desktop Application (New!)
+
+**For users who prefer a graphical interface**, we now provide a desktop application with a modern web-based UI!
+
+**Quick Start:**
+
+```bash
+# Linux/macOS - Simple script launcher
+./run_desktop.sh
+
+# Windows - Double-click or run in PowerShell
+run_desktop.bat
+
+# Or launch directly with Python
+python desktop_launcher.py
+```
+
+**Features:**
+- 🎨 Modern, user-friendly interface
+- 📱 Real-time device status monitoring
+- 📊 Integrated task execution and logging
+- 🔍 Quick access to visualization dashboard
+- 💡 Built-in example tasks and help
+
+**Installation (Optional):**
+Create desktop shortcuts for easy access:
+```bash
+python install_desktop.py
+```
+
+📖 **See [DESKTOP_README.md](DESKTOP_README.md) for detailed documentation, troubleshooting, and advanced usage.**
+
+---
+
+### Command Line Setup
+
 End-to-end inference requires just a few simple steps:
 
 1. Set up LLM inference environment (ollama or vllm)
