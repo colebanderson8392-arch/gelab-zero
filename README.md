@@ -169,19 +169,35 @@ The benchmark results demonstrate that GELab-Zero-4B-preview exhibits exceptiona
 
 ### 🖥️ Desktop Application (New!)
 
-**For users who prefer a graphical interface**, we now provide a desktop application! 
+**For users who prefer a graphical interface**, we now provide a desktop application with a modern web-based UI!
 
-After completing the basic setup below, you can launch the desktop GUI:
+**Quick Start:**
 
 ```bash
-# Quick launch
-python desktop_launcher.py
+# Linux/macOS - Simple script launcher
+./run_desktop.sh
 
-# Or install desktop shortcuts
+# Windows - Double-click or run in PowerShell
+run_desktop.bat
+
+# Or launch directly with Python
+python desktop_launcher.py
+```
+
+**Features:**
+- 🎨 Modern, user-friendly interface
+- 📱 Real-time device status monitoring
+- 📊 Integrated task execution and logging
+- 🔍 Quick access to visualization dashboard
+- 💡 Built-in example tasks and help
+
+**Installation (Optional):**
+Create desktop shortcuts for easy access:
+```bash
 python install_desktop.py
 ```
 
-See [DESKTOP_README.md](DESKTOP_README.md) for detailed desktop application documentation.
+📖 **See [DESKTOP_README.md](DESKTOP_README.md) for detailed documentation, troubleshooting, and advanced usage.**
 
 ---
 
