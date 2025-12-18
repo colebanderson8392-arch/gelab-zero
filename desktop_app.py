@@ -129,7 +129,7 @@ with st.sidebar:
     
     if st.button("📊 Open Visualization", use_container_width=True):
         st.info("Opening visualization in new tab...")
-        st.markdown("[Click here to open visualization](http://localhost:33504)", unsafe_allow_html=True)
+        st.markdown("[Click here to open visualization](http://localhost:33503)", unsafe_allow_html=True)
     
     if st.button("📁 View Logs", use_container_width=True):
         log_path = "running_log/server_log/os-copilot-local-eval-logs"

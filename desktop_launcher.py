@@ -58,11 +58,8 @@ def launch_desktop_app():
     ]
     
     try:
-        # Wait a moment then open browser
-        time.sleep(2)
-        webbrowser.open("http://localhost:33504")
-        
         # Run streamlit (this blocks until stopped)
+        # Streamlit will automatically open the browser
         subprocess.run(cmd, check=True)
         
     except KeyboardInterrupt:
