@@ -167,6 +167,26 @@ The benchmark results demonstrate that GELab-Zero-4B-preview exhibits exceptiona
 
 <!-- EN -->
 
+### 🖥️ Desktop Application (New!)
+
+**For users who prefer a graphical interface**, we now provide a desktop application! 
+
+After completing the basic setup below, you can launch the desktop GUI:
+
+```bash
+# Quick launch
+python desktop_launcher.py
+
+# Or install desktop shortcuts
+python install_desktop.py
+```
+
+See [DESKTOP_README.md](DESKTOP_README.md) for detailed desktop application documentation.
+
+---
+
+### Command Line Setup
+
 End-to-end inference requires just a few simple steps:
 
 1. Set up LLM inference environment (ollama or vllm)
